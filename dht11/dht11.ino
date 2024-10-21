@@ -9,7 +9,6 @@ DHT dht(DHTPIN, DHTTYPE);
 void setup()
 {
     Serial.begin(9600);
-    Serial.println(F("DHT11 connected!"));
 
     dht.begin(); // Start the DHT sensor
 }
