@@ -1,3 +1,21 @@
+/*
+ * ==================================================
+ * File Name:      dht11.ino
+ * Description:    Displays temperature, humidity, and heat index using a DHT11 sensor.
+ * Author:         Tu Nombre
+ * Creation Date:  2024-10-20
+ * Version:        1.0
+ * ==================================================
+ * Hardware:       Arduino Uno, DHT11 sensor
+ * Dependencies:   DHT library
+ * Notes:
+ * ==================================================
+ * Pin Configuration
+ *
+ *   DHT11 Sensor:
+ *     Data Pin  -> Pin 2
+ * ==================================================
+ */
 #include "DHT.h"
 
 #define DHTPIN 2      // Pin where the DHT11 is connected
