@@ -1,6 +1,6 @@
 {
     "configuration": "cpu=atmega168",
     "board": "arduino:avr:nano",
-    "sketch": "dht11/dht11.ino",
+    "sketch": "dht11_lcd/dht11_lcd.ino",
     "port": "/dev/ttyUSB0"
 }
